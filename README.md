@@ -8,10 +8,10 @@ As the sole contributor to this project, I, Deyi Zhang, have independently under
 
 ## Analysis ##
 The analysis of the Car Evaluation Dataset reveals interesting patterns and relationships between different car attributes and their overall acceptability. The decision tree classifier effectively identifies key factors influencing car evaluation. The summary statistics and visualizations further augment the understanding of the dataset, highlighting the distribution and variation across different car classes.
-![Distribution Visualization](/Users/victordashuaibi/Desktop/is477-fall2023-final-project/results/simple_vis.png)
+![Distribution Visualization](is477-fall2023-final-project/results/simple_vis.png)
 
 ## Workflow ##
-![Workflow Diagram](/Users/victordashuaibi/Desktop/is477-fall2023-final-project/workflow.png)
+![Workflow Diagram](is477-fall2023-final-project/workflow.png)
 
 Reproducing
 To reproduce this analysis, follow these steps:
