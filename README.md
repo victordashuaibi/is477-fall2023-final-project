@@ -11,7 +11,7 @@ The analysis of the Car Evaluation Dataset reveals interesting patterns and rela
 ![Distribution Visualization](/Users/victordashuaibi/Desktop/is477-fall2023-final-project/results/simple_vis.png)
 
 ## Workflow ##
-![Workflow Diagram](workflow.png)
+![Workflow Diagram](/Users/victordashuaibi/Desktop/is477-fall2023-final-project/workflow.png)
 
 Reproducing
 To reproduce this analysis, follow these steps:
