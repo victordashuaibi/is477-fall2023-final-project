@@ -4,19 +4,20 @@
     "creators": [
         {
             "name": "Zhang, Deyi",
-            "orcid": ""
+            "orcid": "0009-0002-3579-6005"
         }
     ],
     "related_identifiers": [
         {
             "scheme": "doi",
-            "identifier": "https://doi.org/10.0000/00000",
+            "identifier": "doi.org/10.5281/zenodo.10360565",
             "relation": "cites"
         }
     ],
     "access_right": "open",
     "upload_type": "software",
-    "license": "MIT"
+    "license": "MIT License",
+    "keywords": ["data requesting", "data analysis", "visualization", "classification"]
 }
 
     

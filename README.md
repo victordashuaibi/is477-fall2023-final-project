@@ -1,14 +1,17 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10360565.svg)](https://doi.org/10.5281/zenodo.10360565)
+
 ## Overview ##
-This repository is dedicated to the final project for the IS-477: Data Management, Curation, and Reproducibility course, Fall 2023 semester. The project encompasses a comprehensive analysis and visualization of the Car Evaluation Dataset, a well-structured dataset from the UCI Machine Learning Repository. This dataset, derived from a hierarchical decision model, is ideal for research in constructive induction and structure discovery. The analysis focuses on the application of decision tree classification to evaluate car acceptability based on various attributes like price, technical characteristics, and safety. Additionally, the project includes summary statistics and a visualization depicting the distribution of car evaluation classes, providing insights into the dataset's composition and trends.
+This repository hosts the capstone project for IS-477: Data Management, Curation, and Reproducibility, conducted in the Fall 2023 semester. The centerpiece of this project is an in-depth examination and visualization of the Car Evaluation Dataset, obtained from the UCI Machine Learning Repository. Originating from a hierarchical decision model, this dataset offers a rich platform for studies in constructive induction and structure discovery. This analysis primarily employs a decision tree classifier to determine car acceptability, considering factors such as price, technical specifications, and safety features. Moreover, the project presents summary statistics and a graphical representation of the distribution across various car evaluation categories, shedding light on the underlying patterns and trends within the dataset.
 
 ## Contributions ##
 As the sole contributor to this project, I, Deyi Zhang, have independently undertaken all aspects of the work. This includes data collection, analysis, decision tree modeling, creation of visualizations, and documentation.
 
 ## Analysis ##
 The analysis of the Car Evaluation Dataset reveals interesting patterns and relationships between different car attributes and their overall acceptability. The decision tree classifier effectively identifies key factors influencing car evaluation. The summary statistics and visualizations further augment the understanding of the dataset, highlighting the distribution and variation across different car classes.
+![Distribution Visualization](/Users/victordashuaibi/Desktop/is477-fall2023-final-project/results/simple_vis.png)
 
 ## Workflow ##
-![Workflow Diagram](/Users/victordashuaibi/Desktop/is477-fall2023-final-project/workflow.png)
+![Workflow Diagram](workflow.png)
 
 Reproducing
 To reproduce this analysis, follow these steps:
@@ -35,14 +38,19 @@ snakemake --rulegraph profile
 
 snakemake --rulegraph analyze
 
+### Docker: ###
+
+docker run victordashuaibi/is477-fall2023-final-project
+
 ## License ##
 
 This project is licensed under the MIT License. This license was chosen for its permissiveness, allowing unrestricted use, modification, and distribution of the software, making it suitable for academic and open-source projects.
 
-References
-Dataset Information:
+## References ##
 
 Bohanec, Marko. (1997). Car Evaluation. UCI Machine Learning Repository. https://doi.org/10.24432/C5JP48.
+Dataset License:
+
 Dataset License:
 
 Creative Commons Attribution 4.0 International (CC BY 4.0).
