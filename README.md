@@ -14,31 +14,31 @@ The analysis of the Car Evaluation Dataset reveals interesting patterns and rela
 ![Workflow Diagram](workflow.png)
 
 Reproducing
-To reproduce this analysis, follow these steps:
+To reproduce this analysis, follow these step
 
-### Clone the repository: ###
+# *Clone the repository:* #
 
 git clone https://github.com/victordashuaibi/is477-fall2023-final-project.git
 
-### Install the necessary libraries: ###
+# *Install the necessary libraries:* #
 
 pip install -r requirements.txt
 
-### Execute the analysis files: ###
+# *Execute the analysis files:* #
 
-### Prepare the data: ###
+# *Prepare the data:* #
 
 snakemake --rulegraph prepare
 
-### Profile the data: ###
+# *Profile the data:* #
 
 snakemake --rulegraph profile
 
-### Analyze the data: ###
+# *Analyze the data:* #
 
 snakemake --rulegraph analyze
 
-### Docker: ###
+# *Docker:* #
 
 docker run victordashuaibi/is477-fall2023-final-project
 
