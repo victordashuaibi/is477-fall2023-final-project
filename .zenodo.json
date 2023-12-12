@@ -1,0 +1,22 @@
+{
+    "title": "is477-fall2023-final-project",
+    "description": "This project analyzed the car dataset",
+    "creators": [
+        {
+            "name": "Zhang, Deyi",
+            "orcid": ""
+        }
+    ],
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "https://doi.org/10.0000/00000",
+            "relation": "cites"
+        }
+    ],
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "MIT"
+}
+
+    

@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+analyze        1
+total          1
+
+Select jobs to execute...
+
+[Mon Dec 11 23:30:40 2023]
+rule analyze:
+    input: data/car.data
+    output: results/summary_statistics.csv, results/simple_vis.png, results/classification_report.txt
+    jobid: 0
+    reason: Forced execution
+    resources: tmpdir=/var/folders/3n/4qxkp6s91fv51r86swlb5bjm0000gn/T
+
+[Mon Dec 11 23:30:43 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-12-11T233039.948107.snakemake.log
